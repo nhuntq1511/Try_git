@@ -1,7 +1,7 @@
 import sys
 import os
 import cv2 as cv
-
+#thay doi
 def add_argument(zoo, parser, name, help, required=False, default=None, type=None, action=None, nargs=None):
     if len(sys.argv) <= 1:
         return
